@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自己紹介-溝口-</title>
+</head>
+<body>
+    <h1>自己紹介</h1>
+    <h2>プロフィール</h2>
+    <p>名前：溝口竣介</p>
+    <p>年齢：32歳</p>
+    <p>出身地：佐賀県</p>
+    <p>趣味：ゲーム、動画鑑賞</p>
+    <h2>好きなもの</h2>
+    <ul>
+        <li>うどん</li>
+        <li>焼肉</li>
+        <li>ラーメン</li>
+    </ul>
+    <h2>今年の目標</h2>
+    <ol>
+        <li>COACHTECH受講完了</li>
+        <li>ゲーム内のギルドHP作成</li>
+        <li>毎日COACHTECH受講</li>
+    </ol>
+    <h2>リンク</h2>
+    <a href="https://github.com/shunsukem1993-a11y" target="_blank">GITHUBへのリンク</a>
+    <h2>好きな背景</h2>
+    <img src="landscape.jpg" alt="好きな背景" width="400">
+    <h2>問い合わせ</h2>
+    <form action="submit" method="post">
+        <p>
+        <label for="name">お名前:</label>
+        <input type="text" name="お名前" id="name">
+        </p>
+        <p>
+        <label for="question-type">お問い合わせ種別:</label>
+        <select name="お問い合わせ種別" id="question-type">
+        <option value="">--選択してください--</option>
+        <option value="general-question">一般的な質問</option>
+        <option value="opinion-request">ご意見ご要望</option>
+        </select>
+        </p>
+        <p>
+        <label for="inquiry-content">問い合わせ内容:</label>
+        <textarea name="問い合わせ内容" id="inquiry-content" rows="5" cols="40">
+        </textarea>
+        </p>
+        <p>
+        <button type="submit" id="send">送信する</button>
+        </p>
+    </form>
+</body>
+</html>
